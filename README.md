@@ -1,7 +1,12 @@
 # Cześć, jestem MrPikchu! 👋
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=00b4d8&height=150&section=header&text=Java%20%26%20Discord%20Bot%20Developer&fontSize=40&animation=fadeIn" />
+  <img src="https://img.shields.io/badge/MrPikchu-16%20years%20old-00b4d8?style=for-the-badge&logo=github&logoColor=white" height="40">
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" height="40">
+</p>
+
+<p align="center">
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00B4D8&center=true&vCenter=true&width=435&lines=Java+Developer;Discord+Bot+Creator;Minecraft+Plugin+Dev" alt="Typing SVG" /></a>
 </p>
 
 ---
@@ -46,7 +51,7 @@ I am a **16-year-old** intermediate developer focused on the Minecraft ecosystem
   <img align="right" src="https://github-readme-stats.vercel.app/api?username=MrPikchu&show_icons=true&theme=tokyonight&hide_border=true" width="45%" />
 </p>
 <br clear="both" />
-
+<br />
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=MrPikchu&theme=tokyonight&hide_border=true" width="90%" />
 </p>
@@ -60,7 +65,3 @@ Jeśli szukasz pomocy przy pluginie lub bocie – pisz śmiało! / If you need h
 - 📧 **Email:** [mrpikchubiz@gmail.com](mailto:mrpikchubiz@gmail.com)
 
 ---
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=00b4d8&height=100&section=footer" />
-</p>
