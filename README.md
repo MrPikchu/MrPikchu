@@ -1,8 +1,6 @@
 # Cześć, jestem MrPikchu! 👋
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=00b4d8&height=150&section=header&text=Java%20%26%20Discord%20Bot%20Developer&fontSize=40&animation=fadeIn" />
-</p>
+<img width="1064" height="150" alt="image" src="https://github.com/user-attachments/assets/af16790b-a1c9-45e2-8843-76b7da317b8c" />
 
 ---
 
