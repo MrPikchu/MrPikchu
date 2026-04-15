@@ -11,7 +11,7 @@
 
 ---
 
-## 🇵🇱 Wersja Polska
+## 🇵🇱 
 
 ### 👨‍💻 O mnie
 Mam **16 lat** i jestem programistą średniozaawansowanym. Skupiam się głównie na ekosystemie Minecrafta oraz automatyzacji serwerów Discord.
@@ -22,7 +22,7 @@ Mam **16 lat** i jestem programistą średniozaawansowanym. Skupiam się główn
 
 ---
 
-## 🇬🇧 English Version
+## 🇬🇧 
 
 ### 👨‍💻 About Me
 I am a **16-year-old** intermediate developer focused on the Minecraft ecosystem and Discord automation.
