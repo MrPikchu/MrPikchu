@@ -13,53 +13,69 @@
 
 ---
 
-## O mnie / About Me
+## 🇵🇱 O mnie
 
 Mam **16 lat** i jestem programistą średniozaawansowanym. Skupiam się głównie na ekosystemie Minecrafta oraz automatyzacji serwerów Discord.
 
-- **Minecraft:** Tworzę pluginy oparte na Paper API (Java 21). Własna biblioteka narzędziowa, systemy komend, GUI, zarządzanie serwerem.
-- **Discord:** Piszę boty w Pythonie (systemy ticketów, powitania, logi, automatyzacja).
-- **Bazy danych:** Wykorzystuję SQLite do zapisu danych w projektach.
+- 🛠️ **Minecraft:** Tworzę pluginy oparte na Paper API (Java 21). Własna biblioteka narzędziowa, systemy komend, GUI, zarządzanie serwerem.
+- 🤖 **Discord:** Piszę boty w Pythonie — systemy ticketów, powitania, logi, automatyzacja.
+- 💾 **Bazy danych:** Wykorzystuję SQLite do zapisu danych w projektach.
+- 🚀 **Ciągle się rozwijam** i szukam nowych wyzwań!
+
+## 🇬🇧 About Me
+
+I am a **16-year-old** intermediate developer focused on the Minecraft ecosystem and Discord automation.
+
+- 🛠️ **Minecraft:** Developing custom plugins using Paper API (Java 21). Own utility library, command systems, GUIs, server management.
+- 🤖 **Discord:** Creating Python-based bots — ticket systems, greetings, logs, automation.
+- 💾 **Database:** Using SQLite for efficient data management in my projects.
+- 🚀 **Always learning** and looking for new challenges!
 
 ---
 
-## Projekty / Projects
+## 📦 Projekty / Projects
 
-### MrPikchu-Utils
-Uniwersalna biblioteka narzędziowa dla pluginów Paper. Zero zewnętrznych zależności.
+### 🔧 MrPikchu-Utils
+> Uniwersalna biblioteka narzędziowa dla pluginów Paper. Zero zewnętrznych zależności.
 
-`ChatUtil` — kolory, hex, gradienty, MiniMessage, tytuły, action bary  
-`ItemBuilder` — fluent builder dla ItemStack  
-`CommandUtil` — walidacja komend, permisje, cooldowny  
-`ConfigUtil` — obsługa config.yml i custom plików  
-`PlayerUtil` — pobieranie graczy, HP, gamemode, reset  
-`TimeUtil` — formatowanie czasu, cooldown helpers  
-`NumberUtil` — formatowanie liczb, compact, clamp  
-`SoundUtil` — odtwarzanie dźwięków, presety
-
-### MrPikchu-Creator
-Plugin do tworzenia i edytowania niestandardowych zestawów itemów.
-
-- `/mp-creator` — tworzy pełny zestaw (netherite + diamond, elytra) z enchantami jedną komendą
-- `/mp-item` — edytor itemów w ręce: rename, lore, enchanty, glow, unbreakable, custom model data
-- Pełne wsparcie hex kolorów i MiniMessage
-
-### MrPikchu-Core
-Core plugin serwera z zestawem komend administracyjnych.
-
-- Vanish z prefixem `[VANISH]` nad nickiem, blokada damage i pickup
-- Whitelist komend per grupa LuckPerms — każda grupa ma własną listę dostępnych komend
-- `/gm`, `/ec`, `/invsee`, `/vanish`, `/tryb-tworcy`, `/msg`, `/r`
-- `/ogloszenie`, `/ogl-media` z cooldownem, `/helpop`
-- `/discord` z klikalnym linkiem
-- `/help` — pokazuje tylko komendy dostępne dla grupy gracza
-- Restart i shutdown serwera z 30s odliczaniem
-- Shulker w powietrzu — otwieranie skrzynki bez stawiania
-- Cooldown komend i czatu (3s), system wiadomości automatycznych
+| Klasa | Opis |
+|---|---|
+| 💬 `ChatUtil` | Kolory, hex, gradienty, MiniMessage, tytuły, action bary |
+| ⚔️ `ItemBuilder` | Fluent builder dla ItemStack |
+| ⌨️ `CommandUtil` | Walidacja komend, permisje, cooldowny, tab complete |
+| ⚙️ `ConfigUtil` | Obsługa config.yml i custom plików YAML |
+| 👤 `PlayerUtil` | Pobieranie graczy, HP, gamemode, reset |
+| ⏱️ `TimeUtil` | Formatowanie czasu, cooldown helpers |
+| 🔢 `NumberUtil` | Formatowanie liczb, compact (1.5k/1.5M), clamp |
+| 🔊 `SoundUtil` | Odtwarzanie dźwięków, gotowe presety |
 
 ---
 
-## Stack Technologiczny / Tech Stack
+### ⚒️ MrPikchu-Creator
+> Plugin do tworzenia i edytowania niestandardowych zestawów itemów.
+
+- 🎯 `/mp-creator` — tworzy pełny zestaw (netherite + diamond + elytra) z enchantami jedną komendą
+- ✏️ `/mp-item` — edytor itemów w ręce: rename, lore, enchanty, glow, unbreakable, custom model data
+- 🎨 Pełne wsparcie hex kolorów (`&#RRGGBB`) i MiniMessage (`<gradient:...>`)
+
+---
+
+### 🏰 MrPikchu-Core
+> Core plugin serwera z zestawem komend administracyjnych i systemami serwerowymi.
+
+- 👻 **Vanish** — niewidoczność z prefixem `[VANISH]` nad nickiem, blokada damage i pickup itemów
+- 📋 **Whitelist komend** — każda grupa LuckPerms ma własną listę dostępnych komend
+- 🎮 `/gm`, `/ec`, `/invsee`, `/vanish [gracz]`, `/tryb-tworcy`, `/msg`, `/r`
+- 📢 `/ogloszenie`, `/ogl-media` z cooldownem 5 minut, `/helpop` do administracji
+- 🔗 `/discord` z klikalnym linkiem do serwera
+- ❓ `/help` — pokazuje tylko komendy dostępne dla grupy gracza
+- ⚡ Restart i shutdown serwera z 30s odliczaniem i tytułem dla graczy
+- 📦 **Shulker w powietrzu** — otwieranie skrzynki bez stawiania na ziemi
+- ⏳ Cooldown komend i czatu (3s), automatyczne wiadomości systemowe
+
+---
+
+## 🛠️ Stack Technologiczny / Tech Stack
 
 <p align="left">
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
@@ -71,7 +87,7 @@ Core plugin serwera z zestawem komend administracyjnych.
 
 ---
 
-## Statystyki / GitHub Stats
+## 📊 Statystyki / GitHub Stats
 
 <p align="center">
   <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MrPikchu&layout=compact&theme=tokyonight&hide_border=true" width="45%" />
@@ -87,13 +103,13 @@ Core plugin serwera z zestawem komend administracyjnych.
 
 ---
 
-## Kontakt / Contact Me
+## 📬 Kontakt / Contact Me
 
-Jeśli szukasz pomocy przy pluginie lub bocie — pisz śmiało!  
-If you need help with a plugin or bot — feel free to DM!
+Jeśli szukasz pomocy przy pluginie lub bocie — pisz śmiało! 😊
+If you need help with a plugin or bot — feel free to DM! 😊
 
-- **Discord:** `mrpikchu`
-- **Email:** [mrpikchubiz@gmail.com](mailto:mrpikchubiz@gmail.com)
+- 🎮 **Discord:** `mrpikchu`
+- 📧 **Email:** [mrpikchubiz@gmail.com](mailto:mrpikchubiz@gmail.com)
 
 ---
 
