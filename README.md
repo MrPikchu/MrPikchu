@@ -48,6 +48,7 @@ I am a **16-year-old** intermediate developer focused on the Minecraft ecosystem
 | ⏱️ `TimeUtil` | Formatowanie czasu, cooldown helpers |
 | 🔢 `NumberUtil` | Formatowanie liczb, compact (1.5k/1.5M), clamp |
 | 🔊 `SoundUtil` | Odtwarzanie dźwięków, gotowe presety |
+| 💰 `PriceUtil` | Parsowanie cen (16k→16000, 1.5m→1500000), formatowanie, podatek |
 
 ---
 
@@ -65,13 +66,37 @@ I am a **16-year-old** intermediate developer focused on the Minecraft ecosystem
 
 - 👻 **Vanish** — niewidoczność z prefixem `[VANISH]` nad nickiem, blokada damage i pickup itemów
 - 📋 **Whitelist komend** — każda grupa LuckPerms ma własną listę dostępnych komend
-- 🎮 `/gm`, `/ec`, `/invsee`, `/vanish [gracz]`, `/tryb-tworcy`, `/msg`, `/r`
+- 🎮 `/gm`, `/ec`, `/invsee`, `/vanish [gracz]`, `/tryb-tworcy`, `/msg`, `/r`, `/msg-ignore`
 - 📢 `/ogloszenie`, `/ogl-media` z cooldownem 5 minut, `/helpop` do administracji
 - 🔗 `/discord` z klikalnym linkiem do serwera
 - ❓ `/help` — pokazuje tylko komendy dostępne dla grupy gracza
 - ⚡ Restart i shutdown serwera z 30s odliczaniem i tytułem dla graczy
 - 📦 **Shulker w powietrzu** — otwieranie skrzynki bez stawiania na ziemi
 - ⏳ Cooldown komend i czatu (3s), automatyczne wiadomości systemowe
+
+---
+
+### 🏪 MrPikchu-Rynek
+> Rynek aukcyjny z GUI, kategoriami, sortowaniem i bazą H2.
+
+- 🖥️ **GUI 54 sloty** — lewa kolumna z 5 kategoriami, 40 ofert na stronie, paginacja
+- 🗂️ **Kategorie** — Broń, Narzędzia, Zbroja, Materiały, Specjalne — każda z 3 podkategoriami
+- 💰 **Vault economy** — 3% podatek, sprzedający dostaje powiadomienie title+chat nawet offline
+- ⏰ **Oferty wygasają po 24h** — automatyczny task co 5 minut
+- 🔒 **Limity ofert** — domyślnie 2, konfigurowalne przez permisje (5/10/unlimited)
+- ⏱️ Cooldown wystawiania (3s) i anulowania (5s)
+- 🗃️ **H2 embedded** — baza wbudowana w jar, zero konfiguracji zewnętrznej
+
+---
+
+### 🤖 MrPikchu-Welcome-Bot
+> Lekki bot Discord do powitań i pożegnań członków serwera.
+
+- 💚 **Welcome embed** (zielony) — avatar, liczba członków, wiek konta
+- ❤️ **Goodbye embed** (czerwony) — avatar i zaktualizowana liczba członków
+- 🔧 W pełni konfigurowalny przez `config.json` — zero edycji kodu
+- 🧪 `/testwelcome` i `/testgoodbye` — podgląd embedów dla wybranej roli
+- 📝 Placeholdery `{member}` i `{server}` w wiadomościach
 
 ---
 
@@ -83,6 +108,7 @@ I am a **16-year-old** intermediate developer focused on the Minecraft ecosystem
   <img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white" />
   <img src="https://img.shields.io/badge/Paper-00AAFF?style=for-the-badge&logoColor=white" />
   <img src="https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white" />
+  <img src="https://img.shields.io/badge/discord.py-5865F2?style=for-the-badge&logo=discord&logoColor=white" />
 </p>
 
 ---
