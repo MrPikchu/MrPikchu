@@ -116,15 +116,15 @@ I am a **16-year-old** intermediate developer focused on the Minecraft ecosystem
 ## 📊 Statystyki / GitHub Stats
 
 <p align="center">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MrPikchu&layout=compact&theme=tokyonight&hide_border=true" width="45%" />
-  <img align="right" src="https://github-readme-stats.vercel.app/api?username=MrPikchu&show_icons=true&theme=tokyonight&hide_border=true" width="45%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MrPikchu&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" width="45%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=MrPikchu&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="45%" />
 </p>
 
 <br clear="both" />
 <br />
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MrPikchu&theme=tokyonight&hide_border=true" width="90%" />
+  <img src="https://streak-stats.demolab.com?user=MrPikchu&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" width="90%" />
 </p>
 
 ---
